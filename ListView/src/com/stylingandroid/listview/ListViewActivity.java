@@ -20,6 +20,7 @@ public class ListViewActivity extends Activity
 		super.onCreate( savedInstanceState );
 		setContentView( R.layout.main );
 
+		Toast.makeText(ListViewActivity.this, "土司", 1).show();
 		List<String> data = new ArrayList<String>();
 		for ( int i = 1; i <= 10; i++ )
 		{
